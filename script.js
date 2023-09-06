@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     rollButton.addEventListener("click", function () {
         const rollResult = Math.floor(Math.random() * 6) + 1;
-        const resultDescription = `Você rolou um dado de 6 lados e obteve o resultado ${rollResult}`;
+        
         resultElement.textContent = `Resultado: ${rollResult}`;
         
         // Reproduz o som correspondente ao resultado
